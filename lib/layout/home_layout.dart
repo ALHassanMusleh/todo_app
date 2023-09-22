@@ -107,7 +107,9 @@ class HomeLayout extends StatelessWidget {
                       date: dateController.text,
                     );
 
-
+                    titleController.clear();
+                    timeController.clear();
+                    dateController.clear();
                     // insertToDatabase(
                     //   title: titleController.text,
                     //   date: dateController.text,
